@@ -3,4 +3,4 @@
 <br>
 image branchement: <img src="https://github.com/institut-galilee/2020-symmetrical-happiness/blob/master/lab/TP1/pictures/branchement.jpeg">
 <br>
-image lampe alumée: <img src="lab/TP1/pictures/lampe_allumee.jpeg">
+image lampe alumée: <img src="https://github.com/institut-galilee/2020-symmetrical-happiness/blob/master/lab/TP1/pictures/lampe_alumee.jpeg">
