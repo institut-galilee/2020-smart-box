@@ -5,9 +5,11 @@
 <h2> Partie 1</h2>
 
 <img src=""/>
+<P> <P/>
 <img src=""/>
-
+<P> <P/>
 <h2> Partie 1</h2>
 <img src=""/>
+ <P> <P/>
 <img src=""/>
-
+<P> <P/>
