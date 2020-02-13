@@ -12,6 +12,26 @@
 <P> L'image ci-dessus représente la vue schématique du sketch.<P/>
  
 <h2> La communication </h2>
+<code>
+ byte buzzPin = 8;
+
+void setup() {
+  // put your setup code here, to run once:
+    pinMode(buzzPin,OUTPUT);
+    Serial.begin(9600);
+}
+
+void loop() {
+  while (Serial.available() > 0) {
+    int i  = Serial.parseInt();
+    byte val  = Serial.read();
+    Serial.println(val);
+    tone(buzzPin,val);
+    delay(100);
+  }
+
+}
+ </code>
 <img src="https://github.com/institut-galilee/2020-smart-box/blob/master/lab/2/buzzerPassif.jpg"/>
  <P> <P/>
 <img src=""/>
