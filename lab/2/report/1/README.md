@@ -14,5 +14,5 @@
 <h2> La communication </h2>
 <img src=""/>
  <P> <P/>
-<img src="https://github.com/institut-galilee/2020-smart-box/blob/master/lab/2/buzzerPassif.MOV"/>
+<img src="https://github.com/institut-galilee/2020-smart-box/blob/master/lab/2/buzzerPassif.jpg"/>
 <P> <P/>
