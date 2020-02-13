@@ -8,7 +8,7 @@
 <P> <P/>
 <img src="https://github.com/institut-galilee/2020-smart-box/blob/master/lab/2/schematic.png"/>
 <P> <P/>
-<h2> Partie 1</h2>
+<h2> Partie 2</h2>
 <img src=""/>
  <P> <P/>
 <img src=""/>
