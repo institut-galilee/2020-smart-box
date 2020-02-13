@@ -20,6 +20,6 @@
 
 
 <img src="https://github.com/institut-galilee/2020-smart-box/blob/master/lab/2/buzzerPassif.jpg"/>
- <P>figure3: Utilisation du buzzer et de l'arduino<P/>
+ <P>figure3: Connecter le buzzer à l'arduino<P/>
 <img src=""/>
 <P> <P/>
