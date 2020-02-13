@@ -1,4 +1,4 @@
-<h1> TP2 </h1>
+<b><h1> TP2 </h1></b>
 
 <h1>Lab 2 Introduction à la communication</h1>
 
@@ -12,6 +12,7 @@
 <P> L'image ci-dessus représente la vue schématique du sketch.<P/>
  
 <h2> La communication </h2>
+<script src="https://github.com/institut-galilee/2020-smart-box/blob/master/lab/2/code1.ino"></script>
 <img src="https://github.com/institut-galilee/2020-smart-box/blob/master/lab/2/buzzerPassif.jpg"/>
  <P> <P/>
 <img src=""/>
