@@ -4,9 +4,9 @@
 
 <h2> Partie 1</h2>
 
-<img src=""/>
+<img src="https://github.com/institut-galilee/2020-smart-box/blob/master/lab/2/sketch.png"/>
 <P> <P/>
-<img src=""/>
+<img src="https://github.com/institut-galilee/2020-smart-box/blob/master/lab/2/schematic.png"/>
 <P> <P/>
 <h2> Partie 1</h2>
 <img src=""/>
