@@ -1,4 +1,4 @@
-<b><h1 text-align: center> Rapport TP2 </h1></b>
+<b><h1 text-align: center;> Rapport TP2 </h1></b>
 
 <h1>Lab 2 Introduction à la communication</h1>
 
