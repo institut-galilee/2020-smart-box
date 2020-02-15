@@ -18,7 +18,6 @@
 <b><h2>Partie 2: Communication </h2></b>
 <h4>2.1. Développement du programme</h4>
 <p>Dans le script ci-aprés, on cherche à développer un programme arduino qui peut lire une série d'octets et d'ajuster la fréquence du buzzer passif avec la série d'octets en question</p>
-<script src="https://github.com/institut-galilee/2020-smart-box/blob/master/lab/2/code1.ino"></script>
 
 <h4>2.2. Test physique du programme</h4>
 <p>une fois le LDR est connecté à l'Arduino, on a envoyé une valeur à l'ordinateur à l'aide du serial et puis on l'a tracée.</p>
