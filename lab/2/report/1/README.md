@@ -8,11 +8,11 @@
 <p> Notre Sketch est composé de 5 éléments qui sont : ESP-32S, 400 Hole Breadboard, un capteur de température (lm35), 3 fils éléctriques(jumper Wire65), une résistance 220 Ω, comme l'illustre la figure ci-dessous</p>
 <h4>1.1. Crétion du croquis aléatoire</h4>
 <img src="https://github.com/institut-galilee/2020-smart-box/blob/master/lab/2/sketch.png"/>
-<p> figure1: Crétion du croquis aléatoire <p/>
+<h5> figure1: Crétion du croquis aléatoire <h5/>
 
 <h4>1.2. Conception du schéma du croquis</h4>
 <img src="https://github.com/institut-galilee/2020-smart-box/blob/master/lab/2/schematic.png"/>
-<P> figure2: Vue schématique du sketch.<P/>
+<h5> figure2: Vue schématique du sketch.<h5/>
 
 
 <b><h2>Partie 2: Communication </h2></b>
@@ -22,12 +22,14 @@
 
 <h4>2.2. Test physique du programme</h4>
 <img src="https://github.com/institut-galilee/2020-smart-box/blob/master/lab/2/buzzerPassif.jpg"/>
- <P>figure3: Connecter le buzzer à l'arduino<P/>
+ <h5>figure3: Connecter le buzzer à l'arduino<h5/>
  
  <h4>2.3. Connectez le LDR à l'Arduino</h4>
 <img src=""/>
 <P> <P/>
+ <h5> figure4: Connection du LDR à l'Arduino <h5/>
  
  <h4>2.4. Sketch en fritzing</h4>
  <img src=""/>
 <P> <P/>
+ <h5> figure5: Sketch en fritzing <h5/>
