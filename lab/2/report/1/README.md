@@ -21,8 +21,12 @@
 <script src="https://github.com/institut-galilee/2020-smart-box/blob/master/lab/2/code1.ino"></script>
 
 <h4>2.2. Test physique du programme</h4>
+<p>une fois le LDR est connecté à l'Arduino, on a envoyé une valeur à l'ordinateur à l'aide du serial et puis on l'a tracée.</p>
+<p>Comme indiqué dans les figures ci-aprés</p>
 <img src="https://github.com/institut-galilee/2020-smart-box/blob/master/lab/2/buzzerPassif.jpg"/>
  <h5>figure3: Connecter le buzzer à l'arduino<h5/>
+ <img src=""/>
+ <h5>figure3: Trace de la valeur<h5/>
  
  <h4>2.3. Connectez le LDR à l'Arduino</h4>
 <img src=""/>
