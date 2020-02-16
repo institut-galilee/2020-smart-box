@@ -28,6 +28,20 @@ void loop() {
 }
 ```
 
+
+## Test physique du programme
+
+<img src="https://github.com/institut-galilee/2020-smart-box/blob/master/lab/2/report/2/buzzerPassif.jpg"/>
+ 
+ ### figure1: Connecter le buzzer à l'arduino
+ 
+ <h4>2.3. Connectez le LDR à l'Arduino</h4>
+ 
+ Après avoir interconnecté l'arduino avec le LDR (Connecté à trois cables, l'un sur 5v, et les 2 autres respectivent sur A0 et GND des parties Power et Analog), un LED (connecté à deux cables au port 10 et au GND) et compilé le code1.ino, nous avons remarqué au niveau du moniteur série intégré une succession de traces suivant que le LED soit allumé ou éteind.
+La trace "Its DARK, Turn on the LED:" marque que le LED est allumé, et celle "Son BRIGHT, éteignez la LED:" marque que le LED est éteind.
+Nous allons illustrer notre expérience avec les images et vidéos ci-dessous :
+
+### **le code**
 ```INO
 const int ledPin  =  10 ; 
 const int ldrPin = A0 ;
@@ -51,19 +65,6 @@ void loop () {
      } 
 }
 ```
-
-
-## Test physique du programme
-
-<img src="https://github.com/institut-galilee/2020-smart-box/blob/master/lab/2/report/2/buzzerPassif.jpg"/>
- 
- ### figure1: Connecter le buzzer à l'arduino
- 
- <h4>2.3. Connectez le LDR à l'Arduino</h4>
- 
- Après avoir interconnecté l'arduino avec le LDR (Connecté à trois cables, l'un sur 5v, et les 2 autres respectivent sur A0 et GND des parties Power et Analog), un LED (connecté à deux cables au port 10 et au GND) et compilé le code1.ino, nous avons remarqué au niveau du moniteur série intégré une succession de traces suivant que le LED soit allumé ou éteind.
-La trace "Its DARK, Turn on the LED:" marque que le LED est allumé, et celle "Son BRIGHT, éteignez la LED:" marque que le LED est éteind.
-Nous allons illustrer notre expérience avec les images et vidéos ci-dessous :
 
  <h4>2.3.1. Connection du LDR à l'Arduino</h4>
 <img src=""/> <br/><br/>
