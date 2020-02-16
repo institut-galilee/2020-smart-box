@@ -18,10 +18,10 @@ Nous allons illustrer notre expérience avec les images et vidéos ci-dessous : 
 <img src=""/> <br/>
 <h5> figure4: Connection du LDR à l'Arduino <h5/> <br/><br/>
  
- <img src=""/>
+ <img src="https://github.com/institut-galilee/2020-smart-box/blob/master/lab/2/report/2/LED%20allum%C3%A9.jpg"/>
 <h5>figure 4 : LED allumé</h5> <br/><br/>
 
-<img src=""/>
+<img src="https://github.com/institut-galilee/2020-smart-box/blob/master/lab/2/report/2/LED%20eteind.jpg"/>
 <h5>figure 4 : LED eteind</h5> <br/><br/>
  
  <img src=""/>
