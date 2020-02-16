@@ -66,7 +66,7 @@ void loop () {
 }
 ```
 
- <h4>2.3.1. Connection du LDR à l'Arduino</h4>
+ ### Connection du LDR à l'Arduino
 <img src="https://github.com/institut-galilee/2020-smart-box/blob/master/lab/2/report/2/sketch.jpeg"/> <br/><br/>
 <h5> figure2 : Connection du LDR à l'Arduino <h5/> <br/><br/>
  <br></br>
@@ -74,11 +74,11 @@ void loop () {
  <img src="https://github.com/institut-galilee/2020-smart-box/blob/master/lab/2/report/2/LED%20allum%C3%A9.jpg"/>
 <h5>figure 3 : LED allumé</h5> <br/><br/>
 
-<h4>2.3.3. LED éteind</h4>
+#### LED éteind
 <img src="https://github.com/institut-galilee/2020-smart-box/blob/master/lab/2/report/2/LED%20eteind.jpg"/>
 <h5>figure 4 : LED éteind</h5> <br/><br/>
  
- <h4>2.3.4. Trace de la valeur</h4>
+ #### Trace de la valeur
  <img src=""/>
  <h5>figure 5: Trace de la valeur<h5/>
  
