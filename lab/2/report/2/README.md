@@ -12,11 +12,11 @@
  <h4>2.3. Connectez le LDR à l'Arduino</h4>
  
  <p> Après avoir interconnecté l'arduino avec le LDR (Connecté à trois cables, l'un sur 5v, et les 2 autres respectivent sur A0 et GND des poarties Power et Analog), un LED (connecté à deux cables au port 10 et au GND) et compilé le code1.ino, nous avons remarqué au niveau du moniteur série intégré une succession de traces suivant que le LED soit allumé ou eteind.<br/>
-La trace "Its DARK, Turn on the LED:" marque que le LED est allumé, et celle "Son BRIGHT, éteignez la LED:" marque que le LED est éteind.<br/>
+La trace "Its DARK, Turn on the LED:" marque que le LED est allumé, et celle "Son BRIGHT, éteignez la LED:" marque que le LED est éteind.</p><br/>
 Nous allons illustrer notre expérience avec les images et vidéos ci-dessous : <br/>
  
-<img src=""/> <br/>
-<h5> figure4: Connection du LDR à l'Arduino <h5/> <br/><br/>
+<img src=""/> <br/><br/>
+<h5> figure4 : Connection du LDR à l'Arduino <h5/> <br/><br/>
  
  <img src="https://github.com/institut-galilee/2020-smart-box/blob/master/lab/2/report/2/LED%20allum%C3%A9.jpg"/>
 <h5>figure 4 : LED allumé</h5> <br/><br/>
@@ -26,6 +26,8 @@ Nous allons illustrer notre expérience avec les images et vidéos ci-dessous : 
  
  <img src=""/>
  <h5>figure3: Trace de la valeur<h5/>
+ 
+ <P> NB : Nous avons aussi remarqué que l'approche de le lumière de notre caméra éteind le LED, qui se rallume dès qu'on éloigne la caméra.</P>
  
  <h4>2.4. Sketch en fritzing</h4>
  <img src=""/>
