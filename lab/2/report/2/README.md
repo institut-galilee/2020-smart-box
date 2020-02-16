@@ -4,7 +4,24 @@
 <p>Dans le script ci-aprés, on cherche à développer un programme arduino qui peut lire une série d'octets et d'ajuster la fréquence du buzzer passif avec la série d'octets en question</p>
 <br></br>
 <h4>2.2. le code</h4>
-<p>https://github.com/institut-galilee/2020-smart-box/blob/master/lab/2/report/2/code1.ino</p>
+'''byte buzzPin = 8;
+
+void setup() {
+  // put your setup code here, to run once:
+    pinMode(buzzPin,OUTPUT);
+    Serial.begin(9600);
+}
+
+void loop() {
+  while (Serial.available() > 0) {
+    int i  = Serial.parseInt();
+    byte val  = Serial.read();
+    Serial.println(val);
+    tone(buzzPin,val);
+    delay(100);
+  }
+
+}'''
 <br/><br/>
 
 <h4>2.3. Test physique du programme</h4>
