@@ -67,7 +67,7 @@ void loop () {
 ```
 
  <h4>2.3.1. Connection du LDR à l'Arduino</h4>
-<img src=""/> <br/><br/>
+<img src="https://github.com/institut-galilee/2020-smart-box/blob/master/lab/2/report/2/sketch.jpeg"/> <br/><br/>
 <h5> figure2 : Connection du LDR à l'Arduino <h5/> <br/><br/>
  <br></br>
  <h4>2.3.2. LED allumé</h4>
@@ -84,7 +84,4 @@ void loop () {
  
  <P> NB : Nous avons aussi remarqué que l'approche de la lumière de notre caméra éteind le LED, qui se rallume dès qu'on éloigne la caméra.</P>
  
- <h4>2.4. Sketch en fritzing</h4>
- <img src=""/>
-<P> <P/>
- <h5> figure5: Sketch en fritzing <h5/>
+ 
