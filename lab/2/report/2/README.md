@@ -4,7 +4,28 @@
 <p>Dans le script ci-aprés, on cherche à développer un programme arduino qui peut lire une série d'octets et d'ajuster la fréquence du buzzer passif avec la série d'octets en question</p>
 <br></br>
 <h4>2.2. le code</h4>
-'''byte buzzPin = 8;
+```byte buzzPin = 8;
+
+const int ledPin  =  10 ; 
+const int ldrPin = A0 ;
+void setup () {
+  Serial.begin ( 9600 ) ;
+  pinMode ( ledPin, OUTPUT ) ;
+  pinMode ( ldrPin, INPUT ) ;
+  } ```
+
+```void loop () { 
+  int ldrStatus = analogRead ( ldrPin ) ;
+  if (ldrStatus <= 200) 
+  {
+      digitalWrite (ledPin, HIGH ) ; 
+      Serial.print ( "Its DARK, Turn on the LED:" ) ;
+      Serial.println ( ldrStatus ) ; 
+   } else { 
+       digitalWrite ( ledPin, LOW ) ;
+       Serial.print ( "Son BRIGHT, éteignez la LED:" ) ;
+       Serial.println ( ldrStatus ) ; 
+     } 
 
 void setup() {
   // put your setup code here, to run once:
@@ -21,7 +42,7 @@ void loop() {
     delay(100);
   }
 
-}'''
+}```
 <br/><br/>
 
 <h4>2.3. Test physique du programme</h4>
