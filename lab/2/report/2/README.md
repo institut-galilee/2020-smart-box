@@ -4,7 +4,7 @@
 <p>Dans le script ci-aprés, on cherche à développer un programme arduino qui peut lire une série d'octets et d'ajuster la fréquence du buzzer passif avec la série d'octets en question</p>
 <br></br>
 <h4>2.2. le code</h4>
-```
+```INO
 byte buzzPin = 8;
 
 void setup() {
@@ -25,7 +25,7 @@ void loop() {
 }
 ```
 <br></br>
-```
+```INO
 const int ledPin  =  10 ; 
 const int ldrPin = A0 ;
 void setup () {
