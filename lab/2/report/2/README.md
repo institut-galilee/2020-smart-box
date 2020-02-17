@@ -75,9 +75,9 @@ void loop () {
 <h5>figure 4 : LED éteind</h5> <br/><br/>
  
 #### Trace de la valeur
- <img src=""/><br/><br/>
- <img src=""/><br/><br/>
- <h5>figure 5: Trace de la valeur<h5/>
+ <img src="https://github.com/institut-galilee/2020-smart-box/blob/master/lab/2/report/2/Trace_chiffre.PNG"/><br/><br/>
+ <img src="https://github.com/institut-galilee/2020-smart-box/blob/master/lab/2/report/2/Traceur_graphe.PNG"/><br/><br/>
+ <h5>figure 5: Trace de la valeur<h5/> <br/><br/>
  
  <P> NB : Nous avons aussi remarqué que l'approche de la lumière de notre caméra éteind le LED, qui se rallume dès qu'on éloigne la caméra.</P>
  
