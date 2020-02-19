@@ -79,9 +79,8 @@ void loop () {
  <img src="https://github.com/institut-galilee/2020-smart-box/blob/master/lab/2/report/2/Traceur_graphe.PNG"/><br/><br/>
 <img src="https://github.com/institut-galilee/2020-smart-box/blob/master/lab/2/report/2/image.jpeg"><br/><br/>
 <img src="https://github.com/institut-galilee/2020-smart-box/blob/master/lab/2/report/2/image_1.jpeg"><br/><br/>
-<video>
-  <source src="https://github.com/institut-galilee/2020-smart-box/blob/master/lab/2/report/2/video.jpeg">
-  </video>
+  <a href="https://github.com/institut-galilee/2020-smart-box/blob/master/lab/2/report/2/video.jpeg">
+
   <br/><br/>
 <videp src="https://github.com/institut-galilee/2020-smart-box/blob/master/lab/2/report/2/video_1.jpeg"><br/><br/>
  <h5>figure 5: Trace de la valeur<h5/> <br/><br/>
