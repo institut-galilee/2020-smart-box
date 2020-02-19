@@ -83,11 +83,11 @@ Video 1
 
 ![video 1](https://github.com/institut-galilee/2020-smart-box/blob/master/lab/2/report/2/vd%C3%A9o_1.mp4)
 
-<video>
+<video   width="320" height="240" autoplay>
   <source src="https://github.com/institut-galilee/2020-smart-box/blob/master/lab/2/report/2/vd%C3%A9o_1.mp4" type="video/mp4">
 </video>
   <br/><br/>
-  
+
   Video 2
 <video>
   <source src="https://github.com/institut-galilee/2020-smart-box/blob/master/lab/2/report/2/vid%C3%A9o.mp4" type="video/mp4">
