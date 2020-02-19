@@ -38,7 +38,7 @@ void loop() {
  
  Après avoir interconnecté l'arduino avec le LDR (Connecté à trois cables, l'un sur 5v, et les 2 autres respectivent sur A0 et GND des parties Power et Analog), un LED (connecté à deux cables au port 10 et au GND) et compilé le code1.ino, nous avons remarqué au niveau du moniteur série intégré une succession de traces suivant que le LED soit allumé ou éteind.
 La trace "Its DARK, Turn on the LED:" marque que le LED est allumé, et celle "Son BRIGHT, éteignez la LED:" marque que le LED est éteind.
-Nous allons illustrer notre expérience avec les images et vidéos ci-dessous :
+Nous allons illustrer notre expérience avec les images et les vidéos ci-dessous :
 
 ### **le code2.ino**
 ```INO
