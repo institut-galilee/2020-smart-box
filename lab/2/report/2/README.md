@@ -80,6 +80,9 @@ void loop () {
 <img src="https://github.com/institut-galilee/2020-smart-box/blob/master/lab/2/report/2/image.jpeg"><br/><br/>
 <img src="https://github.com/institut-galilee/2020-smart-box/blob/master/lab/2/report/2/image_1.jpeg"><br/><br/>
 Video 1
+
+![video 1](https://github.com/institut-galilee/2020-smart-box/blob/master/lab/2/report/2/vd%C3%A9o_1.mp4)
+
 <video>
   <source src="https://github.com/institut-galilee/2020-smart-box/blob/master/lab/2/report/2/vd%C3%A9o_1.mp4" type="video/mp4">
 </video>
