@@ -79,10 +79,11 @@ void loop () {
  <img src="https://github.com/institut-galilee/2020-smart-box/blob/master/lab/2/report/2/Traceur_graphe.PNG"/><br/><br/>
 <img src="https://github.com/institut-galilee/2020-smart-box/blob/master/lab/2/report/2/image.jpeg"><br/><br/>
 <img src="https://github.com/institut-galilee/2020-smart-box/blob/master/lab/2/report/2/image_1.jpeg"><br/><br/>
-  <a href="https://github.com/institut-galilee/2020-smart-box/blob/master/lab/2/report/2/video.jpeg">
-
+<video>
+  <source src="https://github.com/institut-galilee/2020-smart-box/blob/master/lab/2/report/2/video.jpeg">
+</video>
   <br/><br/>
-<videp src="https://github.com/institut-galilee/2020-smart-box/blob/master/lab/2/report/2/video_1.jpeg"><br/><br/>
+<video src="https://github.com/institut-galilee/2020-smart-box/blob/master/lab/2/report/2/video_1.jpeg"><br/><br/>
  <h5>figure 5: Trace de la valeur<h5/> <br/><br/>
  
  <P> NB : Nous avons aussi remarqué que l'approche de la lumière de notre caméra éteind le LED, qui se rallume dès qu'on éloigne la caméra.</P>
