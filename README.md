@@ -11,5 +11,5 @@ Notre projet consiste à développer une  technologie de suivi de colis connect�
 <br></br>
 <img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/colis_ferme.jpeg"/>
 <br></br>
-<img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/tel.png"/>
+<img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/tel.jpg"/>
 <br></br>
