@@ -7,7 +7,7 @@ Notre projet consiste à développer une  technologie de suivi de colis connect�
 ## Etat de l'art 
  y a plusieurs projets autour de cette technologie, le plus récent  étant celui développé par la  start-up nantaise LivingPackets qui consiste à mettre en place un colis connecté (The box). Leur technologie comporte des capteurs permettant d'alerter en cas d'ouverture et de fermeture, de choc, d'humidité ou de variation de température, notamment pour le contenue nécessitant que la chaine du froid soit respectée.
 
-### boite à colis connecté
+### The box (LivingPackets)
 <img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/colis.jpg"/>
 <br></br>
 <img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/boite.jpeg"/>
@@ -15,7 +15,7 @@ Notre projet consiste à développer une  technologie de suivi de colis connect�
 <img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/tel.jpg"/>
 <br></br>
 
-##### Source : Living Packets (https://www.livingpackets.com/)
+##### Source : LivingPackets (https://www.livingpackets.com/)
 
 ### Description de notre solution de base et de son utilité
 En effet avec le développent du E-commerce, le nombre de ventes en ligne ne cesse d’augmenter (hausse de 13,4 % en France en 2018) et le trafic de marchandises prend une ampleur importante.
