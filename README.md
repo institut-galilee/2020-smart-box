@@ -21,5 +21,6 @@ Notre projet consiste à développer une  technologie de suivi de colis connect�
 ### Diagramme UML
 <img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/Colis_connect%C3%A9.jpg"/>
 <br></br>
+
 ### Branchements 
 
