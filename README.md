@@ -13,7 +13,7 @@ Notre projet consiste à développer une  technologie de suivi de colis connect�
 <br></br>
 <img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/tel.jpg"/>
 <br></br>
-##### [Source] (https://www.livingpackets.com/)
+#### Source: Living Packets (https://www.livingpackets.com/)
 
 ## Etude fonctionnelle 
 
