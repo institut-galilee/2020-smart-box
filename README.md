@@ -32,6 +32,8 @@ Et tout ceci à l'appui d'une application de suivi en temps réel du colis.
 
 ### Branchements 
 
-<img src=""/>
+<img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/smart_box_sketch.png"/>
+<br></br>
+<img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/smart_box_schematic.png"/>
 <br></br>
 
