@@ -27,7 +27,12 @@ Et tout ceci à l'appui d'une application de suivi en temps réel du colis.
 ## Etude fonctionnelle 
 
 ### Diagramme UML
+#### Diagramme d'état transition
 <img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/Colis_connect%C3%A9.jpg"/>
+<br></br>
+
+#### Diagramme de cas d'utilisation 
+<img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/diagramme_smartbox.jpg"/>
 <br></br>
 
 ### Branchements 
