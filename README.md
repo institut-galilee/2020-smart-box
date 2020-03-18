@@ -39,6 +39,8 @@ Et tout ceci à l'appui d'une application de suivi en temps réel du colis.
 <img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/diagramme_class.jpg"/>
 <br></br>
 
+### réalisation de l'application 
+http://ai2.appinventor.mit.edu/#6020199882555392
 ### Branchements 
 
 <img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/smart_box_sketch.png"/>
