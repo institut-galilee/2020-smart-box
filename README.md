@@ -65,4 +65,6 @@ Et tout ceci à l'appui d'une application de suivi en temps réel du colis.
 http://ai2.appinventor.mit.edu/#6020199882555392
 
 # Conclusion 
+La technologie du colis connecté, premier emballage intelligent durable pour le commerce électronique au monde, un control total de chaque livraison. De plus l’application permettra une facilité de suivi de colis en toute liberté.
+Tout en espérant atteindre notre objectif qu’est de réussir ce projet, vivement que le travail continue dans cette lancée de colis connecté.
 
