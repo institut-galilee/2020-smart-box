@@ -59,6 +59,16 @@ Et tout ceci à l'appui d'une application de suivi en temps réel du colis.
 
 ### maquettes de l'application 
 
+#### Page Iscription 
+<img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/Inscription.jpg"/>
+<br></br>
+#### page Connexion 
+<img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/Connexion.jpg"/>
+<br></br>
+#### Page Géolocalisation 
+<img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/G%C3%A9olocalisation.jpg"/>
+<br></br>
+
 ## Branchements concrets et codes 
 
 ## Application et codes
