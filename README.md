@@ -78,12 +78,12 @@ Et tout ceci à l'appui d'une application mobile de suivi en temps réel.
 
 #### Notifications
 <br></br>
-<img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/G%C3%A9olocalisation.jpg"/>
+<img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/Notifications.jpg"/>
 <br></br>
 
-#### Compte
+#### Paramètres Compte
 <br></br>
-<img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/G%C3%A9olocalisation.jpg"/>
+<img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/Param%C3%A8tres.jpg"/>
 <br></br>
 
 ### Prototype du Projet sur fritzing
