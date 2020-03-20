@@ -14,7 +14,7 @@ Le but de notre projet est de mettre fin aux colis perdus ou endommagés, d'assu
 
 ## Scénario d'utilisation du projet
 
-Afin que la livraison s'effectue dans les meilleurs conditions, nous allons mettre au point un système de colis connecté et dont les scénarii d'utilisation seront décrits suivant ces lignes ci-dessous : 
+Afin que la livraison s'effectue dans les meilleurs conditions, nous allons mettre au point un système de colis connecté et dont les scénarios d'utilisation seront décrits suivant ces lignes ci-dessous : 
 
  1. La livraison s'effectuera à l'aide d'une boite à colis connecté à une application mobile, la boite en question comportera un GPS         pour gélocaliser le colis à tout moment, d'une caméra permettant de capturer l'état du colis et d'un capteur de température et           d'humidité. 
  2. L'utilisateur de l'application Android recevra des notifications sur l'état et la position du colis, ces                                 notifications seront envoyées grace au module gsm implenté dans la boite à colis.
@@ -42,7 +42,7 @@ Dans les faits, le destinataire d'un colis peut choisir de le conserver pour un 
 ## Processus de conception et de fabrication
 
 Notre solution consistera à mettre en place, au niveau de la boîte à colis, des capteurs (Arduino UNO, capteur d'humidité et de température, LED), un module GSM (notification de l'état du colis), un traqueur GPS (localisation du colis) et une caméra (montrer l'état du colis).
-Et tout ceci à l'appui d'une application de suivi en temps réel. 
+Et tout ceci à l'appui d'une application mobile de suivi en temps réel. 
 
 ## Etude fonctionnelle 
 ### Diagramme UML
