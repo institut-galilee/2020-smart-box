@@ -23,8 +23,10 @@ Afin que la livraison s'effectue dans les meilleurs conditions, nous allons mett
 ## Etat de l'art  
 
 Il y'a certes plusieurs projets autour de cette technologie, mais le plus récent et l'unique française étant celui développé par la  start-up nantaise LivingPackets et qui consiste à mettre en place une boîte à colis connecté (The box). Leur technologie comporte des capteurs permettant d'alerter en cas d'ouverture et de fermeture, de choc, d'humidité ou de variation de température, notamment pour le contenu nécessitant que la chaine du froid soit respectée.
+
 Il s’agit avant tout d’un emballage en libre circulation. Pour chaque trajet effectué, l’expéditeur paie deux euros (2 €), soit l’équivalent d’un colis classique pour le poids limite de 5 kilos de "The box".
 Dans les faits, le destinataire d'un colis peut choisir de le conserver pour un prochain envoi, ou de le remettre à un tiers chargé de les collecter et de les redistribuer.
+
 "The Box" a déjà été testé l’an passé par Orange, pour acheminer des LiveBox en fin de parcours, mais aussi par le géant CDiscount. LivingPackets devrait prochainement commercialiser une deuxième version de son colis, doté d’un écran plus grand et rechargeable par ses utilisateurs. Et, une fois leurs mille livraisons effectuées, les colis connectés subiront le même sort que leurs congénères : le recyclage.
 
 ### The box (LivingPackets)
@@ -45,39 +47,37 @@ Et tout ceci à l'appui d'une application de suivi en temps réel.
 ## Etude fonctionnelle 
 ### Diagramme UML
 #### Diagramme d'état transition
-
+<br></br>
 <img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/Colis_connect%C3%A9.jpg"/>
 <br></br>
-
 #### Diagramme de cas d'utilisation 
-
+<br></br>
 <img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/diagramme_smartbox.jpg"/>
 <br></br>
-
 #### Diagramme de classe 
-
+<br></br>
 <img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/diagramme_class.jpg"/>
 <br></br>
 
 ### Prototype de l'application 
 
 #### Inscription 
-
+<br></br>
 <img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/Inscription.jpg"/>
 <br></br>
 
 #### Connexion
-
+<br></br>
 <img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/Connexion.jpg"/>
 <br></br>
 
 #### Géolocalisation 
-
+<br></br>
 <img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/G%C3%A9olocalisation.jpg"/>
 <br></br>
 
 ### Prototype du Projet sur fritzing
-
+<br></br>
 <img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/smart_box_sketch.png"/>
 <br></br>
 <img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/smart_box_schematic.png"/>
