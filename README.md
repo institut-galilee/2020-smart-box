@@ -1,4 +1,4 @@
-# PROJET COLIS CONNECTE
+# PROJET COLIS CONNECTÉ
 
 ## Description du projet
 
