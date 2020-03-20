@@ -87,14 +87,17 @@ Et tout ceci à l'appui d'une application mobile de suivi en temps réel.
 <br></br>
 
 ### Prototype du Projet sur fritzing
-<br></br>
-<img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/smart_box_sketch.png"/>
+<br>
+<p>En cours de mise à jour</p>
+<br>
+<!--img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/smart_box_sketch.png"/>
 <br></br>
 <img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/smart_box_schematic.png"/>
-<br></br>
+<br></br-->
 
 ## Branchements concrets et codes 
-
+<p>En cours de mise à jours</p>
+<br>
 ## Application et codes
 http://ai2.appinventor.mit.edu/#6020199882555392
 
