@@ -95,12 +95,26 @@ Et tout ceci à l'appui d'une application mobile de suivi en temps réel.
 <p>Schémat</p>
 <img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/GY-NEO6MV2_schéma.png"/>
 <br>
-<!--img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/smart_box_schematic.png"/>
-<br></br-->
-
-## Branchements concrets et codes 
-<p>En cours de mise à jours</p>
+<h3>GSM </h3>
+<p>En cours de mise à jour</p>
 <br>
+<h3>Capteur d'humidité et de Temperature</h3>
+<p>En cours de mise à jour</p>
+<br>
+<h3>Cméra</h3>
+<p>En cours de mise à jour</p>
+## Branchements concrets et codes 
+<h3>GPS </h3>
+<img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/branchement_GPS.jpg"/>
+<br>
+<h3>GSM </h3>
+<p>En cours de mise à jour</p>
+<br>
+<h3>Capteur d'humidité et de Temperature</h3>
+<p>En cours de mise à jour</p>
+<br>
+<h3>Cméra</h3>
+<p>En cours de mise à jour</p>
 ## Application et codes
 http://ai2.appinventor.mit.edu/#6020199882555392
 
