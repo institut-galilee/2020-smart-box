@@ -99,7 +99,11 @@ Et tout ceci à l'appui d'une application mobile de suivi en temps réel.
 <p>En cours de mise à jour</p>
 <br>
 <h3>Capteur d'humidité et de Température</h3>
-<p>En cours de mise à jour</p>
+<p>Branchement</p>
+<img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/capteur_h_t.png"/>
+<br>
+<p>Schémat</p>
+<img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/capteur_h_t_schéma.png"/>
 <br>
 <h3>Cméra</h3>
 <p>En cours de mise à jour</p>
@@ -111,7 +115,7 @@ Et tout ceci à l'appui d'une application mobile de suivi en temps réel.
 <p>En cours de mise à jour</p>
 <br>
 <h3>Capteur d'humidité et de Température</h3>
-<p>En cours de mise à jour</p>
+<img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/capteur_h_t_branchement.jpg"/>
 <br>
 <h3>Cméra</h3>
 <p>En cours de mise à jour</p>
