@@ -88,11 +88,14 @@ Et tout ceci à l'appui d'une application mobile de suivi en temps réel.
 
 ### Prototype du Projet sur fritzing
 <br>
-<p>En cours de mise à jour</p>
+<h3>GPS </h3>
+<p>Branchement</p>
+<img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/GY-NEO6MV2_bb.png"/>
 <br>
-<!--img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/smart_box_sketch.png"/>
-<br></br>
-<img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/smart_box_schematic.png"/>
+<p>Schémat</p>
+<img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/GY-NEO6MV2_schéma.png"/>
+<br>
+<!--img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/smart_box_schematic.png"/>
 <br></br-->
 
 ## Branchements concrets et codes 
