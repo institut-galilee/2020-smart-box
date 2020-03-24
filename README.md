@@ -98,7 +98,7 @@ Et tout ceci à l'appui d'une application mobile de suivi en temps réel.
 <h3>GSM </h3>
 <p>En cours de mise à jour</p>
 <br>
-<h3>Capteur d'humidité et de Temperature</h3>
+<h3>Capteur d'humidité et de Température</h3>
 <p>En cours de mise à jour</p>
 <br>
 <h3>Cméra</h3>
@@ -110,7 +110,7 @@ Et tout ceci à l'appui d'une application mobile de suivi en temps réel.
 <h3>GSM </h3>
 <p>En cours de mise à jour</p>
 <br>
-<h3>Capteur d'humidité et de Temperature</h3>
+<h3>Capteur d'humidité et de Température</h3>
 <p>En cours de mise à jour</p>
 <br>
 <h3>Cméra</h3>
