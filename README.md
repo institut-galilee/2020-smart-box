@@ -87,31 +87,31 @@ Et tout ceci à l'appui d'une application mobile de suivi en temps réel.
 <br></br>
 
 ### Prototype du Projet sur fritzing
-<h3>GPS </h3>
+#### GPS 
 <p>Branchement</p>
 <img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/GY-NEO6MV2_bb.png"/>
 <br>
 <p>Schéma</p>
 <img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/GY-NEO6MV2_schéma.png"/>
-<br>
-<h3>GSM </h3>
+
+#### GSM 
 <p>En cours de mise à jour</p>
-<br>
-<h3>Capteur d'humidité et de Température</h3>
+
+#### Capteur d'humidité et de Température
 <p>Branchement</p>
 <img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/capteur_h_t.png"/>
 <br>
 <p>Schéma</p>
 <img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/capteur_h_t_schéma.png"/>
-<br>
-<h3>Caméra</h3>
+
+#### Caméra
 <p>En cours de mise à jour</p>
 
-## Branchements concrets et codes 
-### GPS
+### Branchements concrets et codes 
+#### GPS
 <img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/branchement_GPS.jpg"/>
 
-#### Le code gps.ino
+##### Le code gps.ino
 
 ```INO
 #include <LiquidCrystal.h>
@@ -164,13 +164,13 @@ void loop(){
   
 }
 ```
-### GSM
+#### GSM
 <p>En cours de mise à jour</p>
 
-### Capteur d'humidité et de Température
+#### Capteur d'humidité et de Température
 <img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/capteur_h_t_branchement.jpg"/>
 
-#### Le code Humidity_Temperature.ino
+##### Le code Humidity_Temperature.ino
 
 ```INO
 #include "DHT.h"
@@ -222,7 +222,7 @@ void loop() {
   Serial.println(F("°F"));
 }
 ```
-### Caméra
+#### Caméra
 <p>En cours de mise à jour</p>
 
 ## Application et codes
