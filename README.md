@@ -87,12 +87,11 @@ Et tout ceci à l'appui d'une application mobile de suivi en temps réel.
 <br></br>
 
 ### Prototype du Projet sur fritzing
-<br>
 <h3>GPS </h3>
 <p>Branchement</p>
 <img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/GY-NEO6MV2_bb.png"/>
 <br>
-<p>Schémat</p>
+<p>Schéma</p>
 <img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/GY-NEO6MV2_schéma.png"/>
 <br>
 <h3>GSM </h3>
@@ -102,23 +101,132 @@ Et tout ceci à l'appui d'une application mobile de suivi en temps réel.
 <p>Branchement</p>
 <img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/capteur_h_t.png"/>
 <br>
-<p>Schémat</p>
+<p>Schéma</p>
 <img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/capteur_h_t_schéma.png"/>
 <br>
-<h3>Cméra</h3>
+<h3>Caméra</h3>
 <p>En cours de mise à jour</p>
+
 ## Branchements concrets et codes 
-<h3>GPS </h3>
+
+<h3>GPS</h3>
 <img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/branchement_GPS.jpg"/>
 <br>
-<h3>GSM </h3>
+### **Le code du GPS**
+```INO
+#include <LiquidCrystal.h>
+#include <SoftwareSerial.h>
+#include <TinyGPS.h>
+//long   lat,lon; // create variable for latitude and longitude object
+float lat = 28.5458,lon = 77.1703; // create variable for latitude and longitude object 
+SoftwareSerial gpsSerial(3,4);//rx,tx
+LiquidCrystal lcd(A0,A1,A2,A3,A4,A5);
+TinyGPS gps; // create gps object
+void setup(){
+Serial.begin(9600); // connect serial
+//Serial.println("The GPS Received Signal:");
+gpsSerial.begin(9600); // connect gps sensor
+lcd.begin(16,2);
+}
+ 
+void loop(){
+    while(gpsSerial.available()){ // check for gps data
+    if(gps.encode(gpsSerial.read()))// encode gps data
+    { 
+    gps.f_get_position(&lat,&lon); // get latitude and longitude
+    // display position
+    lcd.clear();
+    lcd.setCursor(1,0);
+    lcd.print("GPS Signal");
+    //Serial.print("Position: ");
+    //Serial.print("Latitude:");
+    //Serial.print(lat,6);
+    //Serial.print(";");
+    //Serial.print("Longitude:");
+    //Serial.println(lon,6); 
+    lcd.setCursor(1,0);
+    lcd.print("LAT:");
+    lcd.setCursor(5,0);
+    lcd.print(lat);
+    //Serial.print(lat);
+    //Serial.print(" ");
+    
+    lcd.setCursor(0,1);
+    lcd.print(",LON:");
+    lcd.setCursor(5,1);
+    lcd.print(lon);
+    
+   }
+  }
+  
+  String latitude = String(lat,6);
+    String longitude = String(lon,6);
+  Serial.println(latitude+";"+longitude);
+  delay(1000);
+  
+}
+```
+<br>
+<h3>GSM</h3>
 <p>En cours de mise à jour</p>
 <br>
 <h3>Capteur d'humidité et de Température</h3>
 <img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/capteur_h_t_branchement.jpg"/>
 <br>
-<h3>Cméra</h3>
+### **Le code du capteur d'humidité et de température**
+```INO
+#include "DHT.h"
+#define DHTPIN 2
+
+#define DHTTYPE DHT11   // DHT 11
+
+DHT dht(DHTPIN, DHTTYPE);
+
+void setup() {
+  Serial.begin(9600);
+  Serial.println(F("DHT11 test!"));
+
+  dht.begin();
+}
+
+void loop() {
+  // Wait a few seconds between measurements.
+  delay(2000);
+
+  // Reading humidity
+  float h = dht.readHumidity();
+  // Read temperature as Celsius (the default)
+  float t = dht.readTemperature();
+  // Read temperature as Fahrenheit (isFahrenheit = true)
+  float f = dht.readTemperature(true);
+
+  // Check if any reads failed and exit early (to try again).
+  if (isnan(h) || isnan(t) || isnan(f)) {
+    Serial.println(F("Failed to read from DHT sensor!"));
+    return;
+  }
+
+  // Compute heat index in Fahrenheit (the default)
+  float hif = dht.computeHeatIndex(f, h);
+  // Compute heat index in Celsius (isFahreheit = false)
+  float hic = dht.computeHeatIndex(t, h, false);
+
+  Serial.print(F("Humidity: "));
+  Serial.print(h);
+  Serial.print(F("%  Temperature: "));
+  Serial.print(t);
+  Serial.print(F("°C "));
+  Serial.print(f);
+  Serial.print(F("°F  Heat index: "));
+  Serial.print(hic);
+  Serial.print(F("°C "));
+  Serial.print(hif);
+  Serial.println(F("°F"));
+}
+```
+<h3>Caméra</h3>
 <p>En cours de mise à jour</p>
+
 ## Application et codes
 http://ai2.appinventor.mit.edu/#6020199882555392
 
