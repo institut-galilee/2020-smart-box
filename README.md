@@ -110,7 +110,6 @@ Et tout ceci à l'appui d'une application mobile de suivi en temps réel.
 ## Branchements concrets et codes 
 ### GPS
 <img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/branchement_GPS.jpg"/>
-<br>
 
 #### Le code gps.ino
 
@@ -165,13 +164,14 @@ void loop(){
   
 }
 ```
-#### GSM
+### GSM
 <p>En cours de mise à jour</p>
-<br>
-<h3>Capteur d'humidité et de Température</h3>
+
+### Capteur d'humidité et de Température
 <img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/capteur_h_t_branchement.jpg"/>
-<br>
-### **Le code du capteur d'humidité et de température**
+
+#### Le code Humidity_Temperature.ino
+
 ```INO
 #include "DHT.h"
 #define DHTPIN 2
@@ -222,7 +222,7 @@ void loop() {
   Serial.println(F("°F"));
 }
 ```
-<h3>Caméra</h3>
+### Caméra
 <p>En cours de mise à jour</p>
 
 ## Application et codes
