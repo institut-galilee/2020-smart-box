@@ -20,7 +20,7 @@ Afin que la livraison s'effectue dans les meilleurs conditions, nous allons mett
  2. L'utilisateur de l'application Android recevra des notifications sur l'état et la position du colis, ces                                 notifications seront envoyées grace au module gsm implenté dans la boite à colis.
  3. L'utilisateur pourrais, de par la notification reçue, rebondir sur l'application et connaitre les détails sur l'état de son colis.       Il pourrais ainsi savoir si son colis a été ouvert, modifié, dégradé ou en bon ou mauvais état selon la matière du contenu.
 
-## Etat de l'art  
+## État de l'art  
 
 Il y'a certes plusieurs projets autour de cette technologie, mais le plus récent et l'unique française étant celui développé par la  start-up nantaise LivingPackets et qui consiste à mettre en place une boîte à colis connecté (The box). Leur technologie comporte des capteurs permettant d'alerter en cas d'ouverture et de fermeture, de choc, d'humidité ou de variation de température, notamment pour le contenu nécessitant que la chaine du froid soit respectée.
 
@@ -44,7 +44,7 @@ Dans les faits, le destinataire d'un colis peut choisir de le conserver pour un 
 Notre solution consistera à mettre en place, au niveau de la boîte à colis, des capteurs (Arduino UNO, capteur d'humidité et de température, LED), un module GSM (notification de l'état du colis), un traqueur GPS (localisation du colis) et une caméra (montrer l'état du colis).
 Et tout ceci à l'appui d'une application mobile de suivi en temps réel. 
 
-## Etude fonctionnelle 
+## Étude fonctionnelle 
 ### Diagramme UML
 #### Diagramme d'état transition
 <br></br>
