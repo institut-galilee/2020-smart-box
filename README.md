@@ -108,10 +108,11 @@ Et tout ceci à l'appui d'une application mobile de suivi en temps réel.
 <p>En cours de mise à jour</p>
 
 ## Branchements concrets et codes 
-#### GPS
+### GPS
 <img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/branchement_GPS.jpg"/>
 <br>
-#### **Le code du GPS**
+
+#### Le code gps.ino
 
 ```INO
 #include <LiquidCrystal.h>
