@@ -108,11 +108,11 @@ Et tout ceci à l'appui d'une application mobile de suivi en temps réel.
 <p>En cours de mise à jour</p>
 
 ## Branchements concrets et codes 
-
-<h3>GPS</h3>
+#### GPS
 <img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/branchement_GPS.jpg"/>
 <br>
-### **Le code du GPS**
+#### **Le code du GPS**
+
 ```INO
 #include <LiquidCrystal.h>
 #include <SoftwareSerial.h>
@@ -128,7 +128,6 @@ Serial.begin(9600); // connect serial
 gpsSerial.begin(9600); // connect gps sensor
 lcd.begin(16,2);
 }
- 
 void loop(){
     while(gpsSerial.available()){ // check for gps data
     if(gps.encode(gpsSerial.read()))// encode gps data
@@ -154,8 +153,7 @@ void loop(){
     lcd.setCursor(0,1);
     lcd.print(",LON:");
     lcd.setCursor(5,1);
-    lcd.print(lon);
-    
+    lcd.print(lon); 
    }
   }
   
@@ -166,8 +164,7 @@ void loop(){
   
 }
 ```
-<br>
-<h3>GSM</h3>
+#### GSM
 <p>En cours de mise à jour</p>
 <br>
 <h3>Capteur d'humidité et de Température</h3>
