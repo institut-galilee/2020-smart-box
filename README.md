@@ -48,7 +48,7 @@ Et tout ceci à l'appui d'une application mobile de suivi en temps réel.
 ### Diagramme UML
 #### Diagramme d'état transition
 <br></br>
-<img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/Colis_connect%C3%A9.jpg"/>
+<p align="center"><img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/Colis_connect%C3%A9.jpg"/></p>
 <br></br>
 #### Diagramme de cas d'utilisation 
 <br></br>
