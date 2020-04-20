@@ -123,8 +123,8 @@ Et tout ceci à l'appui d'une application mobile de suivi en temps réel.
 ## Application et codes
 http://ai2.appinventor.mit.edu/#6020199882555392
 
-#### Code Arduino :
-
+#### Côté Arduino
+code:
 /**
 * Projet: smartbox (colis connecté)
 * ce projet comprend 3 fonctionnalités
@@ -220,7 +220,9 @@ void evaluerEtat()
   Serial.print(f);
 }
 
-#### Code Python :
+#### Côté Python
+
+code:
 
 """
 * Code de récuperation des données sur le port
