@@ -111,87 +111,93 @@ Et tout ceci à l'appui d'une application mobile de suivi en temps réel.
 #### GPS
 <img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/branchement_GPS.jpg"/>
 
-##### Le code gps.ino
-
-```INO
-#include <LiquidCrystal.h>
-#include <SoftwareSerial.h>
-#include <TinyGPS.h>
-//long   lat,lon; // create variable for latitude and longitude object
-float lat = 28.5458,lon = 77.1703; // create variable for latitude and longitude object 
-SoftwareSerial gpsSerial(3,4);//rx,tx
-LiquidCrystal lcd(A0,A1,A2,A3,A4,A5);
-TinyGPS gps; // create gps object
-void setup(){
-Serial.begin(9600); // connect serial
-//Serial.println("The GPS Received Signal:");
-gpsSerial.begin(9600); // connect gps sensor
-lcd.begin(16,2);
-}
-void loop(){
-    while(gpsSerial.available()){ // check for gps data
-    if(gps.encode(gpsSerial.read()))// encode gps data
-    { 
-    gps.f_get_position(&lat,&lon); // get latitude and longitude
-    // display position
-    lcd.clear();
-    lcd.setCursor(1,0);
-    lcd.print("GPS Signal");
-    //Serial.print("Position: ");
-    //Serial.print("Latitude:");
-    //Serial.print(lat,6);
-    //Serial.print(";");
-    //Serial.print("Longitude:");
-    //Serial.println(lon,6); 
-    lcd.setCursor(1,0);
-    lcd.print("LAT:");
-    lcd.setCursor(5,0);
-    lcd.print(lat);
-    //Serial.print(lat);
-    //Serial.print(" ");
-    
-    lcd.setCursor(0,1);
-    lcd.print(",LON:");
-    lcd.setCursor(5,1);
-    lcd.print(lon); 
-   }
-  }
-  
-  String latitude = String(lat,6);
-    String longitude = String(lon,6);
-  Serial.println(latitude+";"+longitude);
-  delay(1000);
-  
-}
-```
 #### GSM
 <p>En cours de mise à jour</p>
 
 #### Capteur d'humidité et de Température
 <img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/capteur_h_t_branchement.jpg"/>
 
-##### Le code Humidity_Temperature.ino
+#### Caméra
+<p>En cours de mise à jour</p>
 
-```INO
+## Application et codes
+http://ai2.appinventor.mit.edu/#6020199882555392
+
+#### Code Arduino
+
+/**
+* Projet: smartbox (colis connecté)
+* ce projet comprend 3 fonctionnalités
+* 1) la mesure de la temperature et de lhumidité (DHT11)à internes du colis
+* 2) la la geolocalisation du colis(module GPS)
+* 3) la capture d'images en cas de besoin (caméra intégrée)
+* Toutes ces informations seront ennvoyées sous forme de 
+* notifications gérées par un module de communication
+* (le module GSM)
+*/
+//Bibliothèques
+#include <SoftwareSerial.h>
+#include <TinyGPS.h>
 #include "DHT.h"
-#define DHTPIN 2
 
-#define DHTTYPE DHT11   // DHT 11
 
+//Declaration des variables
+#define DHTPIN 2       
+#define DHTTYPE DHT11
 DHT dht(DHTPIN, DHTTYPE);
+float lat = 28.5458,lon = 77.1703;
+SoftwareSerial gpsSerial(3,4);
+TinyGPS gps;
 
-void setup() {
-  Serial.begin(9600);
-  Serial.println(F("DHT11 test!"));
 
+//Initialisations
+
+void setup() 
+{
+  Serial.begin(9600); // connect serial
+  gpsSerial.begin(9600); // connect gps sensor
   dht.begin();
 }
 
-void loop() {
+// Main 
+
+void loop() 
+{
+ geolocaliser();
+ Serial.print(";");
+ evaluerEtat();
+ Serial.print("\n");
+ delay(1000);
+}
+
+/**
+* Fonction de géolocalisation
+*/
+void geolocaliser()
+{
+  while(gpsSerial.available()){ // check for gps data
+    if(gps.encode(gpsSerial.read()))// encode gps data
+    { 
+    gps.f_get_position(&lat,&lon); // get latitude and longitude
+    
+   }
+  }
+  
+  String latitude = String(lat,6);
+  String longitude = String(lon,6);
+  Serial.print(latitude+";"+longitude);
+}
+ 
+/**
+* Fonction d'evaluaation de la température et l'umidité
+*/
+void evaluerEtat()
+{
   // Wait a few seconds between measurements.
   delay(2000);
 
-  // Reading humidity
+  // Reading temperature or humidity takes about 250 milliseconds!
+  // Sensor readings may also be up to 2 seconds 'old' (its a very slow sensor)
   float h = dht.readHumidity();
   // Read temperature as Celsius (the default)
   float t = dht.readTemperature();
@@ -208,25 +214,60 @@ void loop() {
   float hif = dht.computeHeatIndex(f, h);
   // Compute heat index in Celsius (isFahreheit = false)
   float hic = dht.computeHeatIndex(t, h, false);
-
-  Serial.print(F("Humidity: "));
-  Serial.print(h);
-  Serial.print(F("%  Temperature: "));
+  //Serial.print(F("%  Temperature: "));
   Serial.print(t);
-  Serial.print(F("°C "));
+  Serial.print(";");
   Serial.print(f);
-  Serial.print(F("°F  Heat index: "));
-  Serial.print(hic);
-  Serial.print(F("°C "));
-  Serial.print(hif);
-  Serial.println(F("°F"));
 }
-```
-#### Caméra
-<p>En cours de mise à jour</p>
 
-## Application et codes
-http://ai2.appinventor.mit.edu/#6020199882555392
+#### Code Python
+"""
+* Code de récuperation des données sur le port
+* et insertion dans la base de données
+"""
+from serial import Serial
+import mysql.connector as MS
+from mysql.connector import Error
+from mysql.connector import errorcode
+
+"""
+* Fonction d'insertion des données
+"""
+def insererDonnees(d1,d2,d3,d4,d5):
+    try:
+        connexion = MS.connect(host='localhost',database='iot',user='root',password='')
+        curseur = connexion.cursor()
+
+        requete_insertion = """INSERT INTO data (humidite,temperature,lat,lon,photo) VALUES (%s, %s, %s,%s,%s) """
+        
+        enregistrement = (d1,d2,d3,d4,d5)
+        curseur.execute(requete_insertion, enregistrement)
+        connexion.commit()
+        print("Ligne insérée avec succès dans la table")
+    
+    except MS.Error as error:
+        print("Echec d'insertion de la ligne dans la table {}".format(error))
+
+    finally:
+        if (connexion.is_connected()):
+            curseur.close()
+            connexion.close()
+
+#Ouverture du port COM3
+            
+ser = Serial('/COM3',9600)
+
+#Lecture des et enregistrement des données
+
+while True:
+    data = ser.readline() #chaine de caractère comprenant les caractère \n et \r
+    data1 = data.decode('utf-8');
+    tab = data1.split(';')
+    lat = tab[0];
+    lon = tab[1];
+    humidite = data[2];
+    temperature = data[3];
+    insererDonnees(humidite,temperature,lat,lon,"etat.jpg");
 
 # Conclusion 
 
