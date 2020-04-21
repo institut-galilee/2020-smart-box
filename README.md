@@ -16,9 +16,9 @@ Le but de notre projet est de mettre fin aux colis perdus ou endommagés, d'assu
 
 Afin que la livraison s'effectue dans les meilleurs conditions, nous allons mettre au point un système de colis connecté et dont les scénarios d'utilisation seront décrits suivant ces lignes ci-dessous : 
 
- 1. La livraison s'effectuera à l'aide d'une boite à colis connecté à une application mobile, la boite en question comportera un GPS         pour gélocaliser le colis à tout moment, d'une caméra permettant de capturer l'état du colis et d'un capteur de température et           d'humidité. 
- 2. L'utilisateur de l'application Android recevra des notifications sur l'état et la position du colis, ces                                 notifications seront envoyées grace au module gsm implenté dans la boite à colis.
- 3. L'utilisateur pourrais, de par la notification reçue, rebondir sur l'application et connaitre les détails sur l'état de son colis.       Il pourrais ainsi savoir si son colis a été ouvert, modifié, dégradé ou en bon ou mauvais état selon la matière du contenu.
+ -  La livraison s'effectuera à l'aide d'une boite à colis connecté à une application mobile, la boite en question comportera un GPS         pour gélocaliser le colis à tout moment, d'une caméra permettant de capturer l'état du colis et d'un capteur de température et           d'humidité. 
+ -  L'utilisateur de l'application Android recevra des notifications sur l'état et la position du colis, ces                                 notifications seront envoyées grace au module gsm implenté dans la boite à colis.
+ -  L'utilisateur pourrais, de par la notification reçue, rebondir sur l'application et connaitre les détails sur l'état de son colis.       Il pourrais ainsi savoir si son colis a été ouvert, modifié, dégradé ou en bon ou mauvais état selon la matière du contenu.
 
 ## État de l'art  
 
@@ -39,52 +39,36 @@ Dans les faits, le destinataire d'un colis peut choisir de le conserver pour un 
 
 ##### Source : LivingPackets (https://www.livingpackets.com/)
 
-## Processus de conception et de fabrication
+## Processus de conception
+### Contexte
 
-Notre solution consistera à mettre en place, au niveau de la boîte à colis, des capteurs (Arduino UNO, capteur d'humidité et de température, LED), un module GSM (notification de l'état du colis), un traqueur GPS (localisation du colis) et une caméra (montrer l'état du colis).
+Le marché de la livraison des colis est particulièrement tendu avec l’acheminement des achats en ligne. Retards, défaut de livraison , coûts excessifs, et pârfois même absence de recours pour les consommateurs ? 
+noté qu'ils sont plus de 400 millions à transiter en France chaque année, les colis associés au e-commerce, et donc à de simples commandes passées sur Amazon, Le Bon Coin ou encore eBay, nécessitent un milliard d’arbres par an pour récupérer les fibres qui viendront servir à leur fabrication. Ils comportent également le risque d’être perdus ou volés.
+Autant de défaillances, témoignant de l’incomplétude de ce marché, pousse vers une reflexion poussée vers une méthode sécurisée d'acheminement de colis et surtout quand le quotidien passe à la vitesse 2.0.
+
+### Objectif
+
+Tout en nous inspirant de The Box, l'objectif de notre solution consistera à mettre en place, au niveau de la boîte à colis, des capteurs (Arduino UNO, capteur d'humidité et de température, LED), un module GSM (notification de l'état du colis), un traqueur GPS (localisation du colis) et une caméra (montrer l'état du colis).
 Et tout ceci à l'appui d'une application mobile de suivi en temps réel. 
 
-## Étude fonctionnelle 
-### Diagramme UML
-#### Diagramme d'état transition
+### Étude fonctionnelle 
+#### Diagramme UML
+##### Diagramme d'état transition
 <br></br>
 <p align="center"><img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/Colis_connect%C3%A9.jpg"/></p>
 <br></br>
-#### Diagramme de cas d'utilisation 
+##### Diagramme de cas d'utilisation 
 <br></br>
 <img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/diagramme_smartbox.jpg"/>
 <br></br>
-#### Diagramme de classe 
+##### Diagramme de classe 
 <br></br>
 <img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/diagramme_class.jpg"/>
 <br></br>
 
 ### Prototype de l'application 
 
-#### Inscription 
-<br></br>
-<img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/Inscription.jpg"/>
-<br></br>
 
-#### Connexion
-<br></br>
-<img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/Connexion.jpg"/>
-<br></br>
-
-#### Géolocalisation 
-<br></br>
-<img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/G%C3%A9olocalisation.jpg"/>
-<br></br>
-
-#### Notifications
-<br></br>
-<img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/Notifications.jpg"/>
-<br></br>
-
-#### Paramètres Compte
-<br></br>
-<img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/Param%C3%A8tres.jpg"/>
-<br></br>
 
 ### Prototype du Projet sur fritzing
 #### GPS 
