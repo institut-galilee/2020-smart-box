@@ -39,7 +39,7 @@ Dans les faits, le destinataire d'un colis peut choisir de le conserver pour un 
 
 ##### Source : LivingPackets (https://www.livingpackets.com/)
 
-## Processus de conception
+## Analyse contextuelle
 ### Contexte
 
 Le marché de la livraison des colis est particulièrement tendu avec l’acheminement des achats en ligne. Retards, défaut de livraison , coûts excessifs, et pârfois même absence de recours pour les consommateurs ? 
@@ -51,17 +51,22 @@ Autant de défaillances, témoignant de l’incomplétude de ce marché, pousse 
 Tout en nous inspirant de The Box, l'objectif de notre solution consistera à mettre en place, au niveau de la boîte à colis, des capteurs (Arduino UNO, capteur d'humidité et de température, LED), un module GSM (notification de l'état du colis), un traqueur GPS (localisation du colis) et une caméra (montrer l'état du colis).
 Et tout ceci à l'appui d'une application mobile de suivi en temps réel. 
 
-### Étude fonctionnelle 
-#### Diagramme UML
-##### Diagramme d'état transition
+## Étude fonctionnelle 
+### Diagramme UML
+#### Diagramme d'état transition
+
 <br></br>
 <p align="center"><img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/Colis_connect%C3%A9.jpg"/></p>
 <br></br>
-##### Diagramme de cas d'utilisation 
+
+#### Diagramme de cas d'utilisation 
+
 <br></br>
 <img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/diagramme_smartbox.jpg"/>
 <br></br>
-##### Diagramme de classe 
+
+#### Diagramme de classe 
+
 <br></br>
 <img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/diagramme_class.jpg"/>
 <br></br>
@@ -71,48 +76,11 @@ Et tout ceci à l'appui d'une application mobile de suivi en temps réel.
 
 
 ### Prototype du Projet sur fritzing
-#### GPS 
-<p>Branchement</p>
-<img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/GY-NEO6MV2_bb.png"/>
-<br>
-<p>Schéma</p>
-<img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/GY-NEO6MV2_schéma.png"/>
 
-#### GSM 
-<p>En cours de mise à jour</p>
+## Fonctionnalités
+### Boite à colis
+### Application
 
-#### Capteur d'humidité et de Température
-<p>Branchement</p>
-<img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/capteur_h_t.png"/>
-<br>
-<p>Schéma</p>
-<img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/capteur_h_t_schéma.png"/>
-
-#### Caméra
-<p>En cours de mise à jour</p>
-
-### Branchements concrets et codes 
-#### GPS
-<img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/branchement_GPS.jpg"/>
-
-#### GSM
-<p>En cours de mise à jour</p>
-
-#### Capteur d'humidité et de Température
-<img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/capteur_h_t_branchement.jpg"/>
-
-#### Caméra
-<p>En cours de mise à jour</p>
-
-## Application et codes
-http://ai2.appinventor.mit.edu/#6020199882555392
-
-#### Code Arduino
-[Consulter](https://github.com/institut-galilee/2020-smart-box/blob/master/src/projet.ino)
-#### Code Python
-[Consulter](https://github.com/institut-galilee/2020-smart-box/blob/master/src/serveur.py)
-### Base de données
-[Consulter](https://github.com/institut-galilee/2020-smart-box/blob/master/src/iot.sql)
 # Conclusion 
 
 La technologie du colis connecté, premier emballage intelligent durable pour le commerce électronique dans le monde, un controle total sur chaque livraison. En plus d'une application qui permettrais une facilité de suivi de colis en toute liberté.
