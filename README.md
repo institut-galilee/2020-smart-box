@@ -36,7 +36,6 @@ Dans les faits, le destinataire d'un colis peut choisir de le conserver pour un 
 <br></br>
 <img src="https://github.com/institut-galilee/2020-smart-box/blob/master/doc/pictures/tel.jpg"/>
 <br></br>
-
 ##### Source : LivingPackets (https://www.livingpackets.com/)
 
 ## Analyse contextuelle
@@ -75,11 +74,14 @@ Et tout ceci à l'appui d'une application mobile de suivi en temps réel.
 
 
 
-### Prototype du Projet sur fritzing
+### Prototypage des composants sur fritzing
+
 
 ## Fonctionnalités
 ### Boite à colis
+
 ### Application
+
 
 # Conclusion 
 
