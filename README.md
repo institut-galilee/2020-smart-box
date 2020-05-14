@@ -6,6 +6,7 @@ Avec le développement du E-commerce, le nombre de ventes en ligne ne cesse de c
 
 La livraison de colis étant une étape cruciale durant laquelle ce dernier peut être égaré, endommagé ou livré à la mauvaise adresse.
 Notre projet consiste à développer une technologie de suivi de colis (connecté) par moyen de géolocalisation, permettant non seulement de suivre la livraison en temps réel, mais aussi de limiter l’impact environnemental du e-commerce. On pourrait aussi savoir si le colis a été ouvert, modifié ou dégradé.
+[voir la vidéo](https://drive.google.com/open?id=1XPuqizK67w5vH1QWZzV-v-o1-F9wspP1)
 
 ## Utilité
 
