@@ -1,11 +1,13 @@
 # PROJET BOITE A COLIS CONNECTÉ
 
 ## Membres du groupe Smart-Box :
-  DIALLO Mamadou Korka </br>
-  DIEDHIOU Khady Adiama
-  MACHOUCHE Kahina
+      DIALLO Mamadou Korka </br>
+      DIEDHIOU Khady Adiama </br>
+      MACHOUCHE Kahina
   
 ## Lien vers la vidéo démonstrative : [voir la vidéo](https://drive.google.com/open?id=1XPuqizK67w5vH1QWZzV-v-o1-F9wspP1)
+
+<br><br>
 
 ## Description
 
