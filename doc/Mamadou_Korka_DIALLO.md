@@ -3,9 +3,9 @@
 ## Vue sur le projet
 
 C’est  moi même qui ai proposé ce projet de colis connecté dont l’idée m’est venue suite à une analyse des besoins récurrents de nos jours.
-
 Les problèmes autour des transferts de colis étant souvent nombreux, le colis peut être détérioré, ouvert, modifié ou perdu. Le secteur étant large et le nombre de transit énorme d’où il serait un peu difficile de toujours identifier les causes.
 Etant conscient de tous ces problématiques, l’idée de colis connecté apportera des changements dans ce secteur car il y’aura sur la boite qui servira de transit des moyens sécuritaires de contrôle du contenu durant tout le trajet de transition. 
+
 Et c’est suite à une réflexion poussée avec mes coéquipiers qui nous avons pu formaliser cette idée de départ.
 
 ## Réalisations effectuées
