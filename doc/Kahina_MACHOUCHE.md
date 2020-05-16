@@ -8,7 +8,7 @@ Cette technologie de colis connecté, en plus d’être d’actualité, car arri
 
 ## Réalisations effectuées
 
-En nous partageant les tâches, j'ai été amené au début à m’occuper du Github, notamment de la mise en place des diagrammes nous ayant permis de situer le travail à faire puis au final à réaliser une application Android pour la géolocalisation et la génération de notifications d’état du colis connecté. Pour ce faire je l'ai d’abord réalisé la maquette de l'application pour ensuite le programmer sous Android studio avec le langage java.  
+En nous partageant les tâches, j'ai été amené au début à m’occuper du Github, notamment de la mise en place des diagrammes nous ayant permis de situer le travail à faire puis au final à réaliser une application Android pour la géolocalisation et la génération de notifications d’état du colis connecté. Pour ce faire je l'ai d’abord réalisé la maquette de l'application ainsi que son logo pour ensuite le programmer sous Android studio avec le langage java.  
 
 En effet une fois la mise en place de la maquette, le passage au développement du code a été un vrai jeu d'enfant. Pour ce faire j'ai utilisé deux API, celle de Google, facile à implémenter et celle qui nous permettrais de relier l'application au colis.
 
