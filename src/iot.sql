@@ -25,6 +25,37 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
+-- Structure de la table `profil`
+--
+
+CREATE TABLE `profil` (
+  `username` varchar(20) NOT NULL,
+  `password` varchar(20) NOT NULL,
+  'confirmpassw'varchar(20) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Déchargement des données de la table `profil`
+--
+
+INSERT INTO `profil` (`username`, `password`,'confirmpassw') VALUES
+('admin', 'admin','admin'),
+('kahina','kahina','kahina');
+
+--
+-- Index pour les tables déchargées
+--
+
+--
+-- Index pour la table `profil`
+--
+ALTER TABLE `profil`
+  ADD PRIMARY KEY (`username`);
+COMMIT;
+
+
+
+--
 -- Structure de la table `data`
 --
 
