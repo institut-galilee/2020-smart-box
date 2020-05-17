@@ -1,4 +1,4 @@
-# Boite à colis connectée : Rapport de projet personnel de Kahina MACHOUCHE 11928889
+# Boite à colis connectée : Rapport de projet personnel de Kahina MACHOUCHE 
 
 ## Vue sur le projet
 
