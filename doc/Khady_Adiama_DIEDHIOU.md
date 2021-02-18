@@ -2,7 +2,7 @@
 
 ## Vue sur le projet
 
-Plus d’une fois, on raconte des problèmes survenus autour des colis en partant de leurs emballages à leur livraison chez le concerné. Et ces problèmes sont souvent de tailles car portant atteint à la fois à la société de livraison et au client, la plupart du temps le colis est soit détérioré, ouvert, modifié ou perdu.
+Plus d’une fois, il est raconté des problèmes survenus autour des colis en partant de leurs emballages à leur livraison chez le concerné. Et ces problèmes sont souvent de tailles, car portant atteint à la fois à la société de livraison et au client, la plupart du temps le colis est soit détérioré, ouvert, modifié ou perdu.
 
 En partant de cette problématique, nous est venue l’idée de combler cette insatisfaction chez le public concerné en quête d’automatisation et de sécurité à bas prix. Nous avons ainsi décidé de réaliser une solution de boite à colis connectée pour le particulier, qui soit abordable financièrement, écologiquement et modulable, tout en alliant robustesse et sécurité.
 
@@ -10,7 +10,7 @@ En partant de cette problématique, nous est venue l’idée de combler cette in
 
 Suivant le partage des tâches, il a été convenu, au début, que je m’occupe des branchements avec le camarade Korka DIALLO avec qui on travaillait ensemble nous partageant les tests et mise en place des outils de la boite à colis. Ensemble on avait presque effectué tous les tests  et il ne restait que la mise en boîte.
 
-Mais avec l’inattendu confinement, alors que le matériel était resté avec mon collègue, et on s’est redistribué les tâches d’où je devais m’occuper désormais de tout ce qui est rapport et la gestion du Github, de même que la fonction de modératrice de groupe, c’est ces fonctions que j’ai occupé jusqu’à la fin du projet.
+Mais avec l’inattendu confinement, alors que le matériel était resté avec mon collègue, et on s’est redistribué les tâches d’où je devais m’occuper désormais de tout ce qui est rapport de projet et la gestion du Github, de même que la fonction de modératrice de groupe, ce sont ces fonctions que j’ai occupé jusqu’à la fin du projet.
 
 ## Contraintes autour du projet
 
