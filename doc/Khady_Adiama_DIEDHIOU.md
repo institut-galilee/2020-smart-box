@@ -2,7 +2,7 @@
 
 ## Vue sur le projet
 
-Plus d’une fois, il est raconté des problèmes survenus autour des colis en partant de leurs emballages à leur livraison chez le concerné. Et ces problèmes sont souvent de tailles, car portant atteint à la fois à la société de livraison et au client, la plupart du temps le colis est soit détérioré, ouvert, modifié ou perdu.
+Plus d’une fois, il a été raconté des problèmes survenus autour des colis en partant de leurs emballages à leur livraison chez le concerné. Et ces problèmes sont souvent de tailles, car portant atteint à la fois à la société de livraison et au client, la plupart du temps le colis est soit détérioré, ouvert, modifié ou perdu.
 
 En partant de cette problématique, nous est venue l’idée de combler cette insatisfaction chez le public concerné en quête d’automatisation et de sécurité à bas prix. Nous avons ainsi décidé de réaliser une solution de boite à colis connectée pour le particulier, qui soit abordable financièrement, écologiquement et modulable, tout en alliant robustesse et sécurité.
 
